@@ -30,16 +30,43 @@ body {
 .row.top {
     border-bottom: solid;
     background-image: url("fractal-azul-1.png");
+}
+
+.row.name {
+	padding-bottom: 5%;
+	
+}
+
+.border_line{
+	border-top: solid #ffffff;
+	border-top-width: 1px;
+}
+
+.user {
+	color: white;
+	font-size: 35px;
+	padding-top: 50%;
+	
 
 }
 
-
-#background {
-  
-   
-   
+#sidebar {
+ 	background-color: #00B0CA;
+    height: 80vh;
 }
 
+.container.name{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: solid white;
+}
+#sidebar_name{
+	color: white;
+}
+#sidebar_element {
+	color: white;
+	font-size: 12px;
+}
 #background:after {
     content : "";
     display: block;
