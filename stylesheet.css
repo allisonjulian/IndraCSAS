@@ -31,3 +31,22 @@
 li:hover{
 	background-color: #fff;
 }
+
+#btnreupload{
+	background-color: #FFA100;
+	color:white;
+	border-color: none;
+}
+
+#btndelete{
+	background-color: #E21776;
+	color:white;
+	border-color: none;
+
+}
+
+#btnexport{
+	background-color: #C3CD05;
+	color:white;
+	border-color: none;
+}
