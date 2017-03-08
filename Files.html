@@ -17,14 +17,22 @@
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-
-<h2> </h2>;
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Indra</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">CSAS</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
 	<div class = "container" id = "main">
 		<div class= "container" id = "sidebar">
 			<div class = "namearea">
-				<div>
-					<!-- Insert User Image here -->
-				</div>
 				<div>
 					<h3>Edwin de la Cruz</h3>
 				</div>
@@ -47,7 +55,7 @@
 					<th>#</th>
 					<th>File Uploaded</th>
 					<th>Date and Time</th>
-					<th id = "checkbox">Published?</th>
+					<th>Published?</th>
 					<th>Actions</th>
 				</tr>
 				<tr>
@@ -55,7 +63,11 @@
 					<td>CSAT_2017_QPMO.xlsx</td>
 					<td>March 4, 2017 9:58PM</td>
 					<td><input type = "checkbox" name = "publish"></td>
-					<td>List of actions</td>
+					<td>
+						<button class = "btn" id = "btnreupload">Re-upload</button>
+						<button class = "btn" id = "btndelete">Delete</button>
+						<button class = "btn" id = "btnexport">Export</button>
+					</td>
 				</tr>
 			</table>
 	</div>
