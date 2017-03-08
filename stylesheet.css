@@ -1,0 +1,33 @@
+.tableheader{
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+
+.header{
+	border-bottom: 1px solid;
+}
+
+
+#sidebar{
+	width:20%;
+	height:100vh;
+    float:left;
+    background-color:#00B0CA;
+    color:black;
+    opacity:80%;
+    color: white;
+}
+
+#filesbody{
+	width: 80%;
+	float:right;
+}
+
+
+.namearea{
+	border-bottom: 1px solid white;
+}
+
+li:hover{
+	background-color: #fff;
+}
