@@ -18,6 +18,19 @@
     color: white;
 }
 
+.container.main {
+	padding-right: 10%;
+
+}
+
+.navbar.navbar-inverse {
+	margin:0;
+}
+.sidebar-nav-fixed {
+	position: relative;
+	width:100%;
+	background-color:#00B0CA;
+}
 #filesbody{
 	width: 80%;
 	float:right;
