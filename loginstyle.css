@@ -28,35 +28,55 @@ head {
 
 body {
     background-image: url("fractal-azul-6.png");
-    background-position: 50% -16%;
+    background-position: 50% -60%;
     background-repeat: no-repeat;
  	background-size: 45%;   
 }
 
-
-
-#sidebar {
- 	background-color: #00B0CA;
-    height: 85vh;
-    width: 18vw;
-    position: fixed;
-    overflow-x: hidden;
-    overflow-y: auto;
+a {
+	color: black;
 }
 
-.container.main {
-	height: 85vh;
-	padding-right: 5%;
-	padding-left: 0%;
-	border-bottom: solid #00B0CA;
-	border-right: solid #00B0CA;
-	background-image: url("white_new.png"); 
-	overflow: auto;
+.login-text {
+	height: 6vh;
+	width: 33vw;
+	background-color: #00B0CA;
+	padding-top: 4px;
+	color: white;
+	font-size: 22px;
+}
 
+.form-group {
+	margin-top: 40px;
+	margin-left: 70px;
+	margin-right: 50px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#inputUsername, #inputPassword {
+	border-radius: 0px;
+	border-color: #00B0CA;
+	height: 5vh;
+}
+
+.btn.btn-signin {
+	width: 120px;
+	border-radius: 0px;
+	background-color: #00B0CA;
+	color: white;
+}
+
+
+.container.main {
+	height: 45vh;	
+	margin-top: 150px;
+	padding-left: 0%;
+	border: solid #00B0CA;
+	background-image: url("white_new.png"); 
 }
 
 .navbar.navbar-inverse {
-
 	margin:0;
 }
 
