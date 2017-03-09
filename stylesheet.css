@@ -3,6 +3,7 @@ head {
 }
 .navbar.navbar-inverse {
   border: none;
+  border-radius: 0;
 }
 .navbar .navbar-brand {
   padding-top: 8px;
