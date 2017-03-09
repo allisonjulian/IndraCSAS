@@ -14,12 +14,18 @@ head {
   height: 30px;
 }
 
+.navbar .navbar-text {
+	font-size: 20px;
+	margin-top:10px;
+	margin-left: 5px;
+	color: white;
+}
+
 body {
     background-image: url("fractal-azul-1.png");
     background-position:right bottom;
-    background-repeat: repeat-y;
- 	background-size: contain;
-    
+    background-repeat: no-repeat;
+ 	background-size: 40%;   
 }
 .tableheader{
 	border-top: 1px solid;
@@ -68,7 +74,7 @@ body {
 
 #sidebar {
  	background-color: #00B0CA;
-    height: 80vh;
+    height: 85vh;
 }
 
 .container.name{
@@ -98,13 +104,21 @@ body {
 
 
 .container.main {
-	height:80vh;
-	padding-right: 10%;
+	height: 85vh;
+	padding-right: 5%;
 	padding-left: 0%;
 	border-bottom: solid #00B0CA;
 	border-right: solid #00B0CA;
 	background-image: url("white_new.png"); 
 
+}
+
+.col-md-3. {
+	padding-left: 50px;
+}
+
+.glyphicon {
+	padding-left: 15px;
 }
 
 .col-md-9.text {
