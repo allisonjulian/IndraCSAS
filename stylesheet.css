@@ -55,9 +55,18 @@ body {
 
 
 .row.top {
-    border-bottom: solid;
-    background-image: url("fractal-azul-1.png");
+    border-bottom: solid; 
 }
+
+.row.middle {
+    border-bottom: solid; 
+    border-bottom-width: 1px;
+}
+
+.year_text {
+	margin-top: 10px;
+}
+
 
 .row.name {
 	padding-bottom: 5%;
@@ -98,6 +107,11 @@ body {
 	color: white;
 	font-size: 12px;
 }
+
+#sidebar_element:hover {
+	background-color: #00DEFF !important; 
+}
+
 #background:after {
     content : "";
     display: block;
@@ -156,9 +170,19 @@ body {
 .namearea{
 	border-bottom: 1px solid white;
 }
-
+/*
 li:hover{
-	background-color: #fff;
+	background-color: #00DEFF;
+}*/
+
+.btn {
+	border-radius: 0%;
+	width: 80px;
+	font-size: 10px
+}
+
+#btnupload {
+	margin-top: 30px;
 }
 
 #btnreupload{
