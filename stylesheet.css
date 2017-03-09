@@ -6,7 +6,7 @@ head {
   border-radius: 0;
 }
 .navbar .navbar-brand {
-  padding-top: 8px;
+  padding-top: 10px;
   padding-left: 130px;
 }
 
@@ -19,6 +19,11 @@ head {
 	margin-top:10px;
 	margin-left: 5px;
 	color: white;
+}
+
+.navbar .navbar-right {
+	padding-top: 14px;
+	padding-left: 775px;
 }
 
 body {
@@ -75,6 +80,10 @@ body {
 #sidebar {
  	background-color: #00B0CA;
     height: 85vh;
+    width: 18vw;
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .container.name{
@@ -110,6 +119,7 @@ body {
 	border-bottom: solid #00B0CA;
 	border-right: solid #00B0CA;
 	background-image: url("white_new.png"); 
+	overflow: auto;
 
 }
 
