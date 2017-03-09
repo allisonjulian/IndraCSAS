@@ -155,3 +155,9 @@ li:hover{
 	color:white;
 	border-color: none;
 }
+
+.nav{
+	padding-top: 10px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
