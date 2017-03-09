@@ -92,6 +92,7 @@ body {
 	border-bottom: solid white;
 }
 #sidebar_name{
+	padding-top: 6px;
 	color: white;
 }
 #sidebar_element {
@@ -128,7 +129,8 @@ body {
 }
 
 .glyphicon {
-	padding-left: 15px;
+	padding-left: 20px;
+	padding-top: 18px;
 }
 
 .col-md-9.text {
