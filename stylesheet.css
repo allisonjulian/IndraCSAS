@@ -31,7 +31,7 @@ head {
 }
 
 body {
-    background-image: url("fractal-azul-1.png");
+    background-image: url("Resources/fractal-azul-1.png");
     background-position:right bottom;
     background-repeat: no-repeat;
  	background-size: 40%;   
@@ -147,7 +147,7 @@ body {
 	padding-left: 0%;
 	border-bottom: solid #00B0CA;
 	border-right: solid #00B0CA;
-	background-image: url("white_new.png"); 
+	background-image: url("Resources/white_new.png"); 
 	overflow: auto;
 
 }
@@ -186,10 +186,6 @@ body {
 .namearea{
 	border-bottom: 1px solid white;
 }
-/*
-li:hover{
-	background-color: #00DEFF;
-}*/
 
 .btn {
 	border-radius: 0%;
@@ -231,3 +227,57 @@ li:hover{
 #pagetitle{
 	font-weight: bold;
 }
+
+/*********************************** LOG IN ***********************************/
+#login {
+    background-image: url("Resources/fractal-azul-6.png");
+    background-position: 50% -70%;
+    background-repeat: no-repeat;
+ 	background-size: 41%;   
+}
+
+#forgot_password {
+	color: black;
+}
+
+.btn.btn-signin {
+	width: 120px;
+	border-radius: 0px;
+	background-color: #00B0CA;
+	color: white;
+
+}
+
+.login-text {
+	height: 6vh;
+	width: 33vw;
+	background-color: #00B0CA;
+	color: white;
+	font-size: 22px;
+}
+
+.form-group.signin {
+	margin-top: 33px;
+	margin-left: 70px;
+	margin-right: 50px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.container.login {
+	height: 45vh;	
+	margin-top: 110px;
+	padding-left: 0%;
+	border: solid #00B0CA;
+	background-image: url("Resources/white_new.png"); 
+}
+
+#inputUsername, #inputPassword {
+	border-radius: 0px;
+	border-color: #00B0CA;
+	height: 5vh;
+	border-radius: 0px;
+	color: white;
+}
+
+/*****************************************************************************/
