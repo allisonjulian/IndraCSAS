@@ -108,24 +108,14 @@ body {
 	padding-top: 6px;
 	color: white;
 }
-
-.sidebar_element {
+#sidebar_element {
 	color: white;
 	font-size: 12px;
-	
 }
 
-.sidebar_element:hover {
+#sidebar_element:hover {
 	background-color: #00DEFF !important; 
 }
-
-.sidebar_element.collapse_menu {
-	padding-left:25%;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-
 
 #background:after {
     content : "";
@@ -198,26 +188,25 @@ li:hover{
 }
 
 #btnupload {
-	background-color: #00B0CA;
 	margin-top: 30px;
-	color:white;
 }
 
-#btnreupload{
-	background-color: #FFA100;
-	color:white;
-	border-color: none;
-}
-
-#btndelete{
+#btninternal{
 	background-color: #E21776;
 	color:white;
 	border-color: none;
+}
+
+#btnexternal{
+
+	color:white;
+	border-color: none;
+	background-color: #C3CD05;
 
 }
 
 #btnexport{
-	background-color: #C3CD05;
+
 	color:white;
 	border-color: none;
 }
