@@ -199,8 +199,9 @@ li:hover{
 
 #btnupload {
 	background-color: #00B0CA;
-	margin-top: 30px;
 	color:white;
+	margin-top: 28px;
+	margin-left: 25px;
 }
 
 #btnreupload{
