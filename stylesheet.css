@@ -231,3 +231,24 @@ li:hover{
 #pagetitle{
 	font-weight: bold;
 }
+
+#btninternal{
+	background-color: #E21776;
+	color:white;
+	border-color: none;
+}
+
+#btnexternal{
+
+	color:white;
+	border-color: none;
+	background-color: #C3CD05;
+
+}
+
+#btntag{
+	margin-top: 30px;
+	background-color: #FFA100;
+	color:white;
+	border-color: none;
+}
