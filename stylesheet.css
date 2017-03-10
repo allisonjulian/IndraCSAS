@@ -229,7 +229,6 @@ body {
 	font-weight: bold;
 }
 
-<<<<<<< HEAD
 /*********************************** LOG IN ***********************************/
 #login {
     background-image: url("Resources/fractal-azul-6.png");
@@ -271,7 +270,7 @@ body {
 	margin-top: 110px;
 	padding-left: 0%;
 	border: solid #00B0CA;
-		background-image: url("Resources/white_new.png"); 
+	background-image: url("Resources/white_new.png"); 
 }
 
 #inputUsername, #inputPassword {
@@ -283,7 +282,6 @@ body {
 }
 
 /*****************************************************************************/
-=======
 #btninternal{
 	background-color: #E21776;
 	color:white;
@@ -304,4 +302,3 @@ body {
 	color:white;
 	border-color: none;
 }
->>>>>>> origin/master
