@@ -104,14 +104,24 @@ body {
 	padding-top: 6px;
 	color: white;
 }
-#sidebar_element {
+
+.sidebar_element {
 	color: white;
 	font-size: 12px;
+	
 }
 
-#sidebar_element:hover {
+.sidebar_element:hover {
 	background-color: #00DEFF !important; 
 }
+
+.sidebar_element.collapse_menu {
+	padding-left:25%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
 
 #background:after {
     content : "";
