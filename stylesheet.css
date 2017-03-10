@@ -188,7 +188,9 @@ li:hover{
 }
 
 #btnupload {
+	background-color: #00B0CA;
 	margin-top: 30px;
+	color:white;
 }
 
 #btnreupload{
@@ -214,4 +216,8 @@ li:hover{
 	padding-top: 10px;
 	padding-left: 12px;
 	padding-right: 12px;
+}
+
+#pagetitle{
+	font-weight: bold;
 }
