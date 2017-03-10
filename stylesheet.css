@@ -195,8 +195,9 @@ body {
 
 #btnupload {
 	background-color: #00B0CA;
-	margin-top: 30px;
 	color:white;
+	margin-top: 28px;
+	margin-left: 25px;
 }
 
 #btnreupload{
@@ -228,6 +229,7 @@ body {
 	font-weight: bold;
 }
 
+<<<<<<< HEAD
 /*********************************** LOG IN ***********************************/
 #login {
     background-image: url("Resources/fractal-azul-6.png");
@@ -269,7 +271,7 @@ body {
 	margin-top: 110px;
 	padding-left: 0%;
 	border: solid #00B0CA;
-	background-image: url("Resources/white_new.png"); 
+		background-image: url("Resources/white_new.png"); 
 }
 
 #inputUsername, #inputPassword {
@@ -281,3 +283,25 @@ body {
 }
 
 /*****************************************************************************/
+=======
+#btninternal{
+	background-color: #E21776;
+	color:white;
+	border-color: none;
+}
+
+#btnexternal{
+
+	color:white;
+	border-color: none;
+	background-color: #C3CD05;
+
+}
+
+#btntag{
+	margin-top: 30px;
+	background-color: #FFA100;
+	color:white;
+	border-color: none;
+}
+>>>>>>> origin/master
