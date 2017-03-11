@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-	<title>Tracker</title>
+	<title>Import</title>
 
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -82,9 +82,22 @@
 	        <!--/span-->
 			<div class="col-md-9 text">
 				<div class="row top">
-					<div class="col-md-2" style="padding-left:0px">
-						<h1 id="pagetitle"> Tracker </h1>
+					<div class="col-md-3" style="padding-left:0px">
+						<h1 id="pagetitle">Import Files</h1>
 					</div>
+					<div class="col-md-2 col-md-offset-7" style="padding-left:22px">
+					</div>
+				</div>
+				<div>
+					<div class="form-group" id = "selectfile">
+						<label for="InputFile">Select file to Upload</label>
+						<input type="file" id="InputFile">
+						<button class = "btn" id = "btnupload">Upload</button>
+					</div>
+				</div>
+				<div class="row middle">
+					<h3 class="year_text col-md-10">2017</h3>
+					<button class = "confirm_all btn col-md-2" id = "btngreen">Confirm All</button>
 				</div>
 
 
@@ -92,20 +105,19 @@
 				<div class="row">
 					<table class = "table">
 						<tr class = "tableheader">
-							<th>#</th>
-							<th>Department</th>
-							<th>Uploaded?</th>
-							<th>Date and Time</th>
-							<th>Published?</th>
-							<th>Date and Time</th>
+							<th width="10%">#</th>
+							<th width="30%">File Uploaded</th>
+							<th width="30%">Date and Time</th>
+							<th width="30%">Actions</th>
 						</tr>
 						<tr>
 							<td>1</td>
-							<td>Business Consulting</td>
-							<td><input type = "checkbox" name = "uploaded"></td>
-							<td>March 4, 2017 9:58PM</td>
-							<td><input type = "checkbox" name = "published"></td>
-							<td>March 5, 2017 3:50PM</td>
+							<td>On-Time</td>
+							<td>4</td>
+							<td>
+								<button class="btn" id="btnpink">Delete</button>
+								<button class="btn" id="btngreen">Confirm</button>
+							</td>
 						</tr>
 					</table>
 				</div>

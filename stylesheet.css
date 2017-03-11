@@ -69,6 +69,7 @@ body {
 
 .year_text {
 	margin-top: 10px;
+	font-weight: bold;
 }
 
 
@@ -232,6 +233,7 @@ li:hover{
 	font-weight: bold;
 }
 
+/*Departments Buttons*/
 #btninternal{
 	background-color: #E21776;
 	color:white;
@@ -239,16 +241,42 @@ li:hover{
 }
 
 #btnexternal{
-
 	color:white;
 	border-color: none;
 	background-color: #C3CD05;
-
 }
 
+/*Tags*/
 #btntag{
 	margin-top: 30px;
 	background-color: #FFA100;
 	color:white;
 	border-color: none;
+}
+
+
+/*File selector*/
+#selectfile{
+	padding-top: 2%;
+}
+
+#btngreen{
+	color:white;
+	border-color: none;
+	background-color: #C3CD05;
+}
+
+#btnpink{
+	background-color: #E21776;
+	color:white;
+	border-color: none;
+}
+
+.confirm_all{
+	margin-top: 10px;
+}
+
+/*File input*/
+.FileInput{
+	cursor: pointer;
 }
