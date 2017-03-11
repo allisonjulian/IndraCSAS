@@ -5,6 +5,13 @@ html {
 head {
   padding-top: 70px;
 }
+
+body {
+    background-image: url("Resources/fractal-azul-1.png");
+    background-position:right bottom;
+    background-repeat: no-repeat;
+ 	background-size: 40%;   
+}
 .navbar.navbar-inverse {
   border: none;
   border-radius: 0;
@@ -31,7 +38,7 @@ head {
 }
 
 body {
-    background-image: url("fractal-azul-1.png");
+    background-image: url("Resources/fractal-azul-1.png");
     background-position:right bottom;
     background-repeat: no-repeat;
  	background-size: 40%;   
@@ -69,7 +76,6 @@ body {
 
 .year_text {
 	margin-top: 10px;
-	font-weight: bold;
 }
 
 
@@ -83,12 +89,12 @@ body {
 	border-top-width: 1px;
 }
 
-.user {
-	color: white;
-	font-size: 35px;
-	padding-top: 50%;
-	
 
+
+.triangle {
+	color: white;
+	font-size: 10px;
+	padding: 0%;
 }
 
 #sidebar {
@@ -148,7 +154,7 @@ body {
 	padding-left: 0%;
 	border-bottom: solid #00B0CA;
 	border-right: solid #00B0CA;
-	background-image: url("white_new.png"); 
+	background-image: url("Resources/white_new.png"); 
 	overflow: auto;
 
 }
@@ -157,9 +163,18 @@ body {
 	padding-left: 50px;
 }
 
-.glyphicon {
+.glyphicon.arrow{
+	float: right;
+	font-size: 8px;
+	padding-top: 2px;
+}
+
+.glyphicon.user {
 	padding-left: 20px;
 	padding-top: 18px;
+	color: white;
+	font-size: 35px;
+	padding-top: 50%;
 }
 
 .col-md-9.text {
@@ -187,10 +202,6 @@ body {
 .namearea{
 	border-bottom: 1px solid white;
 }
-/*
-li:hover{
-	background-color: #00DEFF;
-}*/
 
 .btn {
 	border-radius: 0%;
@@ -200,8 +211,9 @@ li:hover{
 
 #btnupload {
 	background-color: #00B0CA;
-	margin-top: 30px;
 	color:white;
+	margin-top: 28px;
+	margin-left: 25px;
 }
 
 #btnreupload{
@@ -233,7 +245,59 @@ li:hover{
 	font-weight: bold;
 }
 
-/*Departments Buttons*/
+/*********************************** LOG IN ***********************************/
+#login {
+    background-image: url("Resources/fractal-azul-6.png");
+    background-position: 50% -70%;
+    background-repeat: no-repeat;
+ 	background-size: 41%;   
+}
+
+#forgot_password {
+	color: black;
+}
+
+.btn.btn-signin {
+	width: 120px;
+	border-radius: 0px;
+	background-color: #00B0CA;
+	color: white;
+
+}
+
+.login-text {
+	height: 6vh;
+	width: 33vw;
+	background-color: #00B0CA;
+	color: white;
+	font-size: 22px;
+}
+
+.form-group.signin {
+	margin-top: 33px;
+	margin-left: 70px;
+	margin-right: 50px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.container.login {
+	height: 45vh;	
+	margin-top: 110px;
+	padding-left: 0%;
+	border: solid #00B0CA;
+	background-image: url("Resources/white_new.png"); 
+}
+
+#inputUsername, #inputPassword {
+	border-radius: 0px;
+	border-color: #00B0CA;
+	height: 5vh;
+	border-radius: 0px;
+	color: white;
+}
+
+/*****************************************************************************/
 #btninternal{
 	background-color: #E21776;
 	color:white;
@@ -241,19 +305,19 @@ li:hover{
 }
 
 #btnexternal{
+
 	color:white;
 	border-color: none;
 	background-color: #C3CD05;
+
 }
 
-/*Tags*/
 #btntag{
 	margin-top: 30px;
 	background-color: #FFA100;
 	color:white;
 	border-color: none;
 }
-
 
 /*File selector*/
 #selectfile{
@@ -275,8 +339,10 @@ li:hover{
 .confirm_all{
 	margin-top: 10px;
 }
-
+/*********************************/
 /*File input*/
 .FileInput{
 	cursor: pointer;
 }
+
+/*********************************/
