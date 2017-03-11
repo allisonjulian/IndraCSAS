@@ -182,7 +182,6 @@ body {
 }
 
 .navbar.navbar-inverse {
-
 	margin:0;
 }
 .sidebar-nav-fixed {
@@ -305,7 +304,6 @@ body {
 }
 
 #btnexternal{
-
 	color:white;
 	border-color: none;
 	background-color: #C3CD05;
@@ -319,7 +317,7 @@ body {
 	border-color: none;
 }
 
-/*File selector*/
+/*********************File selector*/
 #selectfile{
 	padding-top: 2%;
 }
@@ -344,5 +342,40 @@ body {
 .FileInput{
 	cursor: pointer;
 }
+/*********************************/
+
+/***************Files*************/
+
+
+#btnfixedconfirm  {
+    position: fixed;
+    bottom: 10%;
+    right: 10%; 
+}
+
+
+#btnfixedcancel {
+	position: fixed;
+    bottom: 10%;
+   	right: 17%; 
+}
 
 /*********************************/
+
+/***************Comparison*************/
+.dropdown-toggle.dropdown_year {
+	width: 170px;
+}
+
+.dropdown_row {
+	padding-top: 10px;
+}
+
+.row.chart_comparison {
+	height: 20vh;
+	border: 1px solid;
+
+}
+
+
+/*************************************/
