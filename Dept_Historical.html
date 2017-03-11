@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-	<title>Department Overall</title>
+	<title>Historical</title>
 
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,43 +52,42 @@
 	 			
 	           	<div class="sidebar-offcanvas" id="sidebar">
 
-	           <!-- row w/name -->
-	        	<div class="row container-fluid name">
-	        	
-	      
-	         	  <div class="col-md-3"><span class="glyphicon glyphicon-user user"></span></div>
-	         	  <div class="col-md-9">
-	         	  	<h4 id="sidebar_name"><center>LASTNAME<br>First Name</center></h4>	
-	         	  </div>
-	           
-	            </div>
-       			<div class="row">
-       				<div class="col-md-8 col-md-offset-2 border_line"> </div>
+		           <!-- row w/name -->
+		        	<div class="row container-fluid name">
+		        	
+		      
+			         	<div class="col-md-3"><span class="glyphicon glyphicon-user user"></span></div>
+			         	  <div class="col-md-9">
+			         	  	<h4 id="sidebar_name"><center>LASTNAME<br>First Name</center></h4>	
+			         	  </div>
+			           
+			            </div>
+	       			<div class="row">
+	       				<div class="col-md-8 col-md-offset-2 border_line"> </div>
+	       			</div>
+
+
+		            <ul class="nav" id="menu">
+		                <li><a data-toggle="collapse" href="#collapse1" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">Company Wide<span class="glyphicon glyphicon-triangle-bottom arrow"></span></span></a></li>
+		                	<div id="collapse1" class="panel-collapse collapse">
+		      					<div href="#" class="panel-body sidebar_element collapse_menu">Overall</div>
+		        				<div href="#" class="panel-body sidebar_element collapse_menu">Comparison</div>
+		        				<div href="#" class="panel-body sidebar_element collapse_menu">Historical</div>
+		        				
+		      				</div>
+		                <li><a href="#" class="sidebar_element"><i class="fa fa-list-alt"></i> <span class="collapse in hidden-xs">Internal</span></a></li>
+		                <li><a data-toggle="collapse" href="#collapse2" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">External<span class="glyphicon glyphicon-triangle-bottom arrow"></span></span></a></li>
+		                	<div id="collapse2" class="panel-collapse collapse">
+		      					<div href="#" class="panel-body sidebar_element collapse_menu">Projects</div>
+		        				<div href="#" class="panel-body sidebar_element collapse_menu">Project Managers</div>
+		        				
+		      				</div>
+		                <li><a href="#" class="sidebar_element"><i class="fa fa-paperclip"></i> <span class="collapse in hidden-xs">Tags</span></a></li>
+		                
+		                <li><a href="#" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">Export</span></a></li>
+		                <li><a href="#" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">Log out</span></a></li>
+	            	</ul>
        			</div>
-
-
-            <ul class="nav" id="menu">
-                <li><a data-toggle="collapse" href="#collapse1" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">Company Wide<span class="glyphicon glyphicon-triangle-bottom arrow"></span></span></a></li>
-                	<div id="collapse1" class="panel-collapse collapse">
-      					<div href="#" class="panel-body sidebar_element collapse_menu">Overall</div>
-        				<div href="#" class="panel-body sidebar_element collapse_menu">Comparison</div>
-        				<div href="#" class="panel-body sidebar_element collapse_menu">Historical</div>
-        				
-      				</div>
-                <li><a href="#" class="sidebar_element"><i class="fa fa-list-alt"></i> <span class="collapse in hidden-xs">Internal</span></a></li>
-                <li><a data-toggle="collapse" href="#collapse2" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">External<span class="glyphicon glyphicon-triangle-bottom arrow"></span></span></a></li>
-                	<div id="collapse2" class="panel-collapse collapse">
-      					<div href="#" class="panel-body sidebar_element collapse_menu">Projects</div>
-        				<div href="#" class="panel-body sidebar_element collapse_menu">Project Managers</div>
-        				
-      				</div>
-                <li><a href="#" class="sidebar_element"><i class="fa fa-paperclip"></i> <span class="collapse in hidden-xs">Tags</span></a></li>
-                
-                <li><a href="#" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">Export</span></a></li>
-                <li><a href="#" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">Log out</span></a></li>
-                
-            </ul>
-        </div>
 	            <!--/sidebar-nav-fixed -->
 	        </div>
 
@@ -96,15 +95,13 @@
 			<div class="col-md-9 text">
 				<div class="row top">
 					<div class="col-md-2" style="padding-left:0px">
-						<h1 id = "pagetitle"> Comparison </h1>
+						<h1 id = "pagetitle">Historical</h1>
 					</div>
 				</div>
 
 
 
 				<div class="row">
-				
-
 					<div class="col-md-3 col-md-offset-9 dropdown_row">
 						<div class="dropdown">
 	  						<button class="btn btn-primary dropdown-toggle dropdown_year" type="button" data-toggle="dropdown">Dropdown Example
@@ -118,25 +115,32 @@
 					</div>
 				</div>
 
+				<div class="row chart_comparison" style="margin-top: 10px">
+				Chart
+				</div>
+
+				<div class="row">
+
+					<div class="col-md-7" id="web_historical" style="">	Web
+
+					</div>
+					<div class="col-md-5">
+						<div class="row" id="percent_historical">
+							<span class="glyphicon glyphicon-triangle-top" id="arrow_historical"></span>
+						</div>
+						<div class="row" id="line_historical">
+							Line
+						</div>
+					</div>
+
+				</div>
 			
-				<div class="row chart_comparison" style="margin-top: 10px">
-				</div>
-
-
-
-				<div class="row chart_comparison" style="margin-top: 10px">
-
-
-
-				</div>
-
-
 			</div>
 		</div>
 	</div>
 
 	
 
-	</div> 
+
 </body>
 </html>

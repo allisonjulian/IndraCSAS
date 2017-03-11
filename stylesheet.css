@@ -372,10 +372,41 @@ body {
 }
 
 .row.chart_comparison {
-	height: 20vh;
+	height: 25vh;
 	border: 1px solid;
 
 }
 
 
 /*************************************/
+
+/******************dept_historical******************/
+
+#web_historical {
+	height: 34vh;
+	border: 1px solid;
+	margin-top: 10px
+	
+}
+
+#percent_historical {
+	height: 10vh;
+	border: 1px solid;
+	margin-top: 10px;
+	margin-left: 3px
+}
+
+#line_historical {
+	height: 23vh;
+	border: 1px solid;
+	margin-top: 10px;
+	margin-left: 3px
+}
+
+#arrow_historical {
+	font-size: 50px;
+	position: left;
+	margin-left: 15px;
+}
+
+/***************************************************/
