@@ -15,7 +15,7 @@
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="loginstyle.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 
 	<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
@@ -28,7 +28,7 @@
 		      </button>
 
 		      <a class="navbar-brand" href="#">
-		        <img src="Indra_01_neg_CMYK_nobg.png">
+		        <img src="Resources/Indra_01_neg_CMYK_nobg.png">
 		      </a>
 
 		      <div class="navbar-text">CSAS</div>
@@ -37,17 +37,17 @@
 
 </head>
 
-<body>
-	<div class="col-md-4 col-md-offset-4 container main">
+<body id="login">
+	<div class="col-md-4 col-md-offset-4 container login">
 		<div class="login-text"><center><b>Sign in</b></center></div>
 
 		<form>
-		  <div class="form-group">
+		  <div class="form-group signin">
 				<form class="form-signin">
 	                <input type="username" id="inputUsername" class="form-control" placeholder="Username" required autofocus><br>
 	                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required><br>
-	                <a href="#" class="forgot-password">Forgot the password?</a><br><br>
-	                <center><button class="btn btn-signin" type="submit">Sign in</button></center>
+	                <a href="#" id="forgot_password">Forgot the password?</a><br><br>
+	                <center><button class="btn btn-signin login" type="submit">Sign in</button></center>
 	            </form><!-- /form -->
             </div>
 		</form>
