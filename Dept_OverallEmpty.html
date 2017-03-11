@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Comparison</title>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+
+		      </button>
+
+		      <a class="navbar-brand" href="#">
+		        <img src="Resources/Indra_01_neg_CMYK_nobg.png">
+		      </a>
+
+		      <div class="navbar-text">CSAS</div>
+
+	  </div>
+	</nav>
+
+</head>
+
+<body>
+
+	<!---- form with border -->
+	<div class="col-md-10 col-md-offset-1 container main">
+
+	<div class="row" >
+			<!-- sidebar -->
+	 		<div class="col-md-3 container">
+	 			
+	           	<div class="sidebar-offcanvas" id="sidebar">
+
+	           <!-- row w/name -->
+	        	<div class="row container-fluid name">
+	        	
+	      
+	         	  <div class="col-md-3"><span class="glyphicon glyphicon-user user"></span></div>
+	         	  <div class="col-md-9">
+	         	  	<h4 id="sidebar_name"><center>LASTNAME<br>First Name</center></h4>	
+	         	  </div>
+	           
+	            </div>
+       			<div class="row">
+       				<div class="col-md-8 col-md-offset-2 border_line"> </div>
+       			</div>
+
+
+            <ul class="nav" id="menu">
+                <li><a data-toggle="collapse" href="#collapse1" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">Company Wide<span class="glyphicon glyphicon-triangle-bottom arrow"></span></span></a></li>
+                	<div id="collapse1" class="panel-collapse collapse">
+      					<div href="#" class="panel-body sidebar_element collapse_menu">Overall</div>
+        				<div href="#" class="panel-body sidebar_element collapse_menu">Comparison</div>
+        				<div href="#" class="panel-body sidebar_element collapse_menu">Historical</div>
+        				
+      				</div>
+                <li><a href="#" class="sidebar_element"><i class="fa fa-list-alt"></i> <span class="collapse in hidden-xs">Internal</span></a></li>
+                <li><a data-toggle="collapse" href="#collapse2" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">External<span class="glyphicon glyphicon-triangle-bottom arrow"></span></span></a></li>
+                	<div id="collapse2" class="panel-collapse collapse">
+      					<div href="#" class="panel-body sidebar_element collapse_menu">Projects</div>
+        				<div href="#" class="panel-body sidebar_element collapse_menu">Project Managers</div>
+        				
+      				</div>
+                <li><a href="#" class="sidebar_element"><i class="fa fa-paperclip"></i> <span class="collapse in hidden-xs">Tags</span></a></li>
+                
+                <li><a href="#" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">Export</span></a></li>
+                <li><a href="#" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">Log out</span></a></li>
+                
+            </ul>
+        </div>
+	            <!--/sidebar-nav-fixed -->
+	        </div>
+
+	        <!--/span-->
+			<div class="col-md-9 text">
+				<div class="row top">
+					<div class="col-md-2" style="padding-left:0px">
+						<h1 id = "pagetitle"> Comparison </h1>
+					</div>
+				</div>
+
+
+
+				<div class="row">
+				
+				<h4> No Results Yet</h4>
+
+
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+	
+
+	</div> 
+</body>
+</html>
