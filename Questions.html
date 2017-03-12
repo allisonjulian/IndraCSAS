@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-	<title>Tags</title>
+	<title>Questions</title>
 
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -92,19 +92,19 @@
 			<div class="col-md-9 text">
 				<div class="row top">
 					<div class="col-md-2" style="padding-left:0px">
-						<h1 id="pagetitle"> Tags </h1>
+						<h1 id="pagetitle"> Question </h1>
 					</div>
 					<div class="col-md-2 col-md-offset-8" style="padding-left:22px">
-						<button class="btn" id="btntag" data-toggle="modal" data-target="#AddTagModal">Add Tag</button>
+						<button class="btn" id="btntag" data-toggle="modal" data-target="#AddModal">Add Question</button>
 
-							<div id="AddTagModal" class="modal fade" role="dialog">
+							<div id="AddModal" class="modal fade" role="dialog">
 									<div class="modal-dialog">
 
 									 <!-- Modal content-->
 									<div class="modal-content">
   										<div class="modal-header">
   	  											<button type="button" class="close" data-dismiss="modal">&times;</button>
-    											<h4 class="modal-title">Add Tag</h4>
+    											<h4 class="modal-title">Add Question</h4>
   										</div>
       									<div class="modal-body">
       										<input type="text" class="form-control" id="usr">
@@ -128,25 +128,25 @@
 					<table class = "table">
 						<tr class = "tableheader">
 							<th width="10%">#</th>
-							<th width="30%">Tags</th>
-							<th width="30%">Frequency</th>
+							<th width="30%">Keyword</th>
+							<th width="30%">Category</th>
 							<th width="30%">Actions</th>
 						</tr>
 						<tr>
 							<td>1</td>
 							<td>On-Time</td>
-							<td>4</td>
+							<td>Timeliness</td>
 							<td>
-								<button class="btn" id="btninternal" data-toggle="modal" data-target="#EditTagModal">Edit</button>
+								<button class="btn" id="btninternal" data-toggle="modal" data-target="#EditModal">Edit</button>
 
-									<div id="EditTagModal" class="modal fade" role="dialog">
+									<div id="EditModal" class="modal fade" role="dialog">
   										<div class="modal-dialog">
 
    										 <!-- Modal content-->
 	    									<div class="modal-content">
 	      										<div class="modal-header">
 	      	  											<button type="button" class="close" data-dismiss="modal">&times;</button>
-	        											<h4 class="modal-title">Edit Tag</h4>
+	        											<h4 class="modal-title">Edit Question</h4>
 	      										</div>
 		      									<div class="modal-body">
 		      										<input type="text" class="form-control" id="usr">
@@ -157,7 +157,7 @@
 		      									</div>
     									</div>
   										</div>
-  									</div>
+									</div>
 								<button class="btn" id="btnexternal">Delete</button>
 							</td>
 						</tr>
