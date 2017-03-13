@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Internal</title>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+
+		      </button>
+
+		      <a class="navbar-brand" href="#">
+		        <img src="Resources/Indra_01_neg_CMYK_nobg.png">
+		      </a>
+
+		      <div class="navbar-text">CSAS</div>
+
+	  </div>
+	</nav>
+
+</head>
+
+<body>
+
+	<!---- form with border -->
+	<div class="col-md-10 col-md-offset-1 container main">
+
+	<div class="row" >
+			<!-- sidebar -->
+	 		<div class="col-md-3 container">
+	 			
+	           	<div class="sidebar-offcanvas" id="sidebar">
+
+	           <!-- row w/name -->
+	        	<div class="row container-fluid name">
+	        	
+	      
+	         	  <div class="col-md-3"><span class="glyphicon glyphicon-user user"></span></div>
+	         	  <div class="col-md-9">
+	         	  	<h4 id="sidebar_name"><center>LASTNAME<br>First Name</center></h4>	
+	         	  </div>
+	           
+	            </div>
+       			<div class="row">
+       				<div class="col-md-8 col-md-offset-2 border_line"> </div>
+       			</div>
+
+
+            <ul class="nav" id="menu">
+                <li><a href="#" class="sidebar_element"><i class="fa fa-list-alt"></i> <span class="collapse in hidden-xs">QPMO</span></a></li>
+                <li><a href="#" class="sidebar_element"><i class="fa fa-list"></i> <span class="collapse in hidden-xs">Import</span></a></li>
+                <li><a href="#" class="sidebar_element"><i class="fa fa-paperclip"></i> <span class="collapse in hidden-xs">Tracker</span></a></li>
+                <li><a data-toggle="collapse" href="#collapse1" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">Company-wide<span class="glyphicon glyphicon-triangle-bottom arrow"></span></span></a></li>
+                	<div id="collapse1" class="panel-collapse collapse">
+      					<div href="#" class="panel-body sidebar_element collapse_menu">Overall</div>
+        				<div href="#" class="panel-body sidebar_element collapse_menu">Comparison</div>
+        				<div href="#" class="panel-body sidebar_element collapse_menu">Historical</div>
+      				</div>
+                <li><a href="#" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">Departments</span></a></li>
+                <li><a href="#" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">Tags</span></a></li>
+                <li><a href="#" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">Questions</span></a></li>
+                <li><a href="#" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">Export</span></a></li>
+                <li><a href="#" class="sidebar_element"><i class="fa fa-refresh"></i> <span class="collapse in hidden-xs">Log out</span></a></li>
+                
+            </ul>
+        </div>
+	            <!--/sidebar-nav-fixed -->
+	        </div>
+
+	        <!--/span-->
+			<div class="col-md-9 text">
+				<div class="row top">
+					<div class="col-md-1" style="padding-left:0; padding-top:30px">
+						<a href="#" id="backlink">Back</a>
+					</div>
+					<div class="col-md-2" style="padding-left:0px">
+						<h1 id="pagetitle"> Results </h1>
+					</div>
+					<div class="col-md-2" style="padding-top:10px">
+						<h3 id="intext"> Internal </h3>
+					</div>
+				</div>
+				<div class="row">
+					<!-- code -->
+
+					<div class="col-md-10" id="details">
+						<!-- change details -->
+						<b>Name of department: </b>Corporate Marketing<br>
+						<b>Survey period: </b>March 5, 2017-March 30, 2017<br>
+						<b>Number of respondents: </b>12
+					</div>
+					<div class="col-md-2" id="deptaverage">
+						<!-- change average -->
+						<center><b>Department average:</b></center>
+						<center><b><div style="font-size:35px">3.5</div></a></b></center>
+					</div>
+				</div>
+
+				<div class="row analysis">
+					<!-- code goes here -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+
+
+	<!--
+	<div class = "container" id = "main">
+		<div class= "container" id = "sidebar">
+			<div class = "namearea">
+				<div>
+					<h3>Edwin de la Cruz </h3>
+				</div>
+			</div>
+			<div class = "panel-group">
+				<ul class = "nav nav-sidebar">
+					<li class = "panel-title">
+						<a data-toggle="collapse">QPMO</a>
+					</li>
+					<li>Files</li>
+					<li>Import</li>
+					<li>Tracker</li>
+				</ul>
+			</div>
+		</div>
+			<div class = "container" id = "filesbody">
+			<h1>Files</h1>
+			<table class = "table">
+				<tr class = "tablehader">
+					<th>#</th>
+					<th>File Uploaded</th>
+					<th>Date and Time</th>
+					<th>Published?</th>
+					<th>Actions</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>CSAT_2017_QPMO.xlsx</td>
+					<td>March 4, 2017 9:58PM</td>
+					<td><input type = "checkbox" name = "publish"></td>
+					<td>
+						<button class="btn" id="btnreupload">Re-upload</button>
+						<button class="btn" id="btndelete">Delete</button>
+						<button class="btn" id="btnexport">Export</button>
+					</td>
+				</tr>
+			</table>
+			</div>
+	</div> -->
+</body>
+</html>

@@ -244,6 +244,11 @@ body {
 	font-weight: bold;
 }
 
+#intext {
+	font-weight: bold;
+	color: #00B0CA;
+}
+
 /*********************************** LOG IN ***********************************/
 #login {
     background-image: url("Resources/fractal-azul-6.png");
@@ -407,6 +412,41 @@ body {
 	font-size: 50px;
 	position: left;
 	margin-left: 15px;
+}
+
+/***************************************************/
+
+/******************internal/external******************/
+
+#backlink {
+	font-weight: bold;
+	font-size: 15px;
+	color: #E21776;
+}
+
+#details {
+	background-color: #B8B9BB;
+	width: 48.5vw;
+	height: 16vh;
+	margin-right: 8px;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+
+#deptaverage {
+	background-color: #00B0CA;
+	width: 10vw;
+	margin-top: 10px;
+	height: 16vh;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	color: #ffffff;
+	font-size: 12px;
 }
 
 /***************************************************/
