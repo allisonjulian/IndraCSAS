@@ -426,9 +426,9 @@ body {
 
 #details {
 	background-color: #B8B9BB;
-	width: 48.5vw;
+	width: 47.5vw;
 	height: 16vh;
-	margin-right: 8px;
+	margin-right: 6px;
 	margin-top: 10px;
 	padding-top: 10px;
 	padding-left: 15px;
@@ -447,6 +447,49 @@ body {
 	padding-bottom: 5px;
 	color: #ffffff;
 	font-size: 12px;
+}
+
+#barint {
+	background-color: #00B0CA;
+	margin-top: 10px;
+	width: 29vw;
+	margin-right: 10px;
+	height: 30vh;
+
+}
+
+#catint {
+	margin-top: 10px;
+	width: 29vw;
+}
+
+#radarint {
+	background-color: #00B0CA;
+	margin-top: 10px;
+	width: 29vw;
+	height: 30vh;
+	margin-right: 10px;
+}
+
+#freqint {
+	background-color: #00B0CA;
+	width: 28vw;
+	height: 30vh;
+	margin-left: 1px;
+}
+
+.row.analysis2 {
+	margin-top: 20px;
+}
+
+/***************************************************/
+
+/******************export******************/
+
+#btngreen{
+	color:white;
+	border-color: none;
+	background-color: #C3CD05;
 }
 
 /***************************************************/
